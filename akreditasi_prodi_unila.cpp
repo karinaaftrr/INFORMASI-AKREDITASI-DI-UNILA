@@ -11,7 +11,7 @@ struct Akreditasi {
     };
     
 Akreditasi akreditasiData[]  = {
-            {"FMIPA", "Ilmu Komputer", "D3 Manajemen Informatika", "Baik Sekali", "27-12-2027"},
+		{"FMIPA", "Ilmu Komputer", "D3 Manajemen Informatika", "Baik Sekali", "27-12-2027"},
 	    {"FMIPA", "Ilmu Komputer", "S1 Sistem Informasi", "Proses/Prodi Baru", "-"},
 	    {"FMIPA", "Ilmu Komputer", "S1 Ilmu Komputer", "A", "25-11-2026"},
 	    {"FMIPA", "Ilmu Komputer", "Ilmu Komputer PSDKU Way Kanan", "Proses/Prodi Baru", "-"},
@@ -50,49 +50,48 @@ Akreditasi akreditasiData[]  = {
 	    {"FT", "Teknik Mesin", "S1 Teknik Mesin", "B", "22-09-2025"},
 	    {"FT", "Teknik Kimia", "S1 Teknik Kimia", "B", "30-12-2025"},
 	    {"FT", "Teknik Geodesi dan Geomatika", "D3 Teknik Survey dan Pemetaan", "Baik Sekali", "20-12-2027"},
-            {"FT", "Teknik Geodesi dan Geomatika", "S1 Teknik Geologi", "Baik", "20-12-2025"},
-            {"FT", "Teknik Geodesi dan Geomatika", "S1 Teknik Geodesi", "B", "20-12-2024"},
-            {"FT", "Teknik Geofisika", "S1 Teknik Geofisika", "Unggul", "20-12-2027"},
-            {"FT", "Arsitektur", "S1 Arsitektur", "Baik", "24-04-2029"},
-            {"FP", "Agribisnis", "S1 Agribisnis", "Unggul", "19-09-2028"},
-            {"FP", "Agribisnis", "S1 Penyuluhan Pertanian", "B", "07-03-2029"},
-            {"FP", "Teknik Pertanian", "S1 Teknik Pertanian", "A", "31-12-2025"},
-            {"FP", "Agroteknologi", "D3 Perkebunan", "B", "10-09-2024"},
-            {"FP", "Agroteknologi", "S1 Agroteknologi", "A", "14-082024"},
-            {"FP", "Ilmu Tanah", "S1 Ilmu Tanah", "B", "23-07-2024"},
-            {"FP", "Proteksi Tanaman", "S1 Proteksi Tanaman", "B", "31-07-2-24"},
-            {"FP", "Agronomi dan Hortikultura", "S1 Agronomi dan Hortikultura", "B", "06-0-2024"},
+        {"FT", "Teknik Geodesi dan Geomatika", "S1 Teknik Geologi", "Baik", "20-12-2025"},
+        {"FT", "Teknik Geodesi dan Geomatika", "S1 Teknik Geodesi", "B", "20-12-2024"},
+        {"FT", "Teknik Geofisika", "S1 Teknik Geofisika", "Unggul", "20-12-2027"},
+        {"FT", "Arsitektur", "S1 Arsitektur", "Baik", "24-04-2029"},
+        {"FP", "Agribisnis", "S1 Agribisnis", "Unggul", "19-09-2028"},
+        {"FP", "Agribisnis", "S1 Penyuluhan Pertanian", "B", "07-03-2029"},
+        {"FP", "Teknik Pertanian", "S1 Teknik Pertanian", "A", "31-12-2025"},
+        {"FP", "Agroteknologi", "D3 Perkebunan", "B", "10-09-2024"},
+        {"FP", "Agroteknologi", "S1 Agroteknologi", "A", "14-082024"},
+        {"FP", "Ilmu Tanah", "S1 Ilmu Tanah", "B", "23-07-2024"},
+        {"FP", "Proteksi Tanaman", "S1 Proteksi Tanaman", "B", "31-07-2-24"},
+        {"FP", "Agronomi dan Hortikultura", "S1 Agronomi dan Hortikultura", "B", "06-0-2024"},
 	    {"FP", "Teknologi Hasil Pertanian", "S1 Teknologi Industri Pertanian", "B", "31-07-2024"},
-            {"FP", "Teknologi Hasil Pertanian","S1 Teknologi Hasil Pertanian", "A", "15-10-2024"},
-            {"FP", "Peternakan", "S1 Nutrisi dan Teknologi Pakan Ternak", "Baik", "18-05-2026"},
-            {"FP", "Peternakan", "S1 Peternakan", "B", "25-09-2024"},
-            {"FP", "Kehutanan", "S1 Kehutanan", "A", "10-07-2029"},
-            {"FP", "Perikanan dan Ilmu Kelautan", "S1 Sumber Daya Akuatik", "B", "13-08-2024"},
-            {"FP", "Perikanan dan Ilmu Kelautan", "S1 Ilmu Kelautan", "B", "23-07-2024"},
-            {"FEB", "Akuntansi", "D3 Akuntansi", "A", "14-07-2025"},
-            {"FEB", "Akuntansi","D3 Akuntansi PSDKU Way Kanan", "Baik", "07-02-2029"},
-            {"FEB", "Akuntansi", "D3 Perpajakan", "A", "30-08-2025"},
-            {"FEB", "Akuntansi", "S1 Akuntansi", "A", "14-08-2-24"},
-            {"FEB", "Ekonomi Pembangunan", "S1 Ekonomi Pemabangunan", "A", "01-04-2025"},
-            {"FEB", "Manajemen", "D3 Keuangan dan Perbankan", "A", "04-09-2025"},
-            {"FEB", "Manajemen", "D3 Manajemen Pemasaran", "A", "30-08-2025"},
-            {"FEB", "Manajemen", "D3 Perbankan dan Keuangan PSDKU Lampung Tengah", "Baik", "07-02-2029"},
-            {"FEB", "Manajemen", "S1 Manajemen", "Unggul", "12-12-2027"},
-            {"FEB", "Manajemen", "S1 Bisnis Digital", "Baik", "15-08-2025"},
-            {"FISIP", "Hubungan Masyarakat", "D3 Hubungan Masyarakat", "B", "10-09-2024"},
-            {"FISIP", "Perpustakaan", "D3 Perpustakaan", "A", "16-07-2024"},
-            {"FISIP", "Hubungan Internasional", "S1 Hubungan Internasional", "Baik Sekali", "18-10-2027"},
-            {"FISIP", "Ilmu Administrasi", "D3 Administrasi Perkantoran", "B", "03-07-2029"},
-            {"FISIP", "Ilmu Administrasi", "S1 Ilmu Administrasi Bisnis", "Unggul", "16-03-2027"},
-            {"FISIP", "Ilmu Administrasi", "S1 Ilmu Administrasi Negara", "A", "11-06-2026"},
-            {"FISIP", "Ilmu Komunikasi", "S1 Ilmu Komunikasi", "A", "02-12-2026"},
-            {"FISIP", "Ilmu Pemerintahan", "S1 Ilmu Pemerintahan", "B", "09-05-2028"},
-            {"FISIP", "Sosiologi", "S1 Sosiologi", "A", "20-08-2024"},
-            {"FK", "Kedokteran", "S1 Pendidikan Dokter", "A", "27-02-2025"},
-            {"FK", "Kedokteran", "S1 Farmasi", "Baik Sekali", "23-01-20228"},
-            {"FH", "Ilmu Hukum" "S1 Ilmu Hukum", "A", "11-06-2026"}
+        {"FP", "Teknologi Hasil Pertanian","S1 Teknologi Hasil Pertanian", "A", "15-10-2024"},
+        {"FP", "Peternakan", "S1 Nutrisi dan Teknologi Pakan Ternak", "Baik", "18-05-2026"},
+        {"FP", "Peternakan", "S1 Peternakan", "B", "25-09-2024"},
+        {"FP", "Kehutanan", "S1 Kehutanan", "A", "10-07-2029"},
+        {"FP", "Perikanan dan Ilmu Kelautan", "S1 Sumber Daya Akuatik", "B", "13-08-2024"},
+        {"FP", "Perikanan dan Ilmu Kelautan", "S1 Ilmu Kelautan", "B", "23-07-2024"},
+        {"FEB", "Akuntansi", "D3 Akuntansi", "A", "14-07-2025"},
+        {"FEB", "Akuntansi","D3 Akuntansi PSDKU Way Kanan", "Baik", "07-02-2029"},
+        {"FEB", "Akuntansi", "D3 Perpajakan", "A", "30-08-2025"},
+        {"FEB", "Akuntansi", "S1 Akuntansi", "A", "14-08-2-24"},
+        {"FEB", "Ekonomi Pembangunan", "S1 Ekonomi Pemabangunan", "A", "01-04-2025"},
+        {"FEB", "Manajemen", "D3 Keuangan dan Perbankan", "A", "04-09-2025"},
+        {"FEB", "Manajemen", "D3 Manajemen Pemasaran", "A", "30-08-2025"},
+        {"FEB", "Manajemen", "D3 Perbankan dan Keuangan PSDKU Lampung Tengah", "Baik", "07-02-2029"},
+        {"FEB", "Manajemen", "S1 Manajemen", "Unggul", "12-12-2027"},
+        {"FEB", "Manajemen", "S1 Bisnis Digital", "Baik", "15-08-2025"},
+        {"FISIP", "Hubungan Masyarakat", "D3 Hubungan Masyarakat", "B", "10-09-2024"},
+        {"FISIP", "Perpustakaan", "D3 Perpustakaan", "A", "16-07-2024"},
+        {"FISIP", "Hubungan Internasional", "S1 Hubungan Internasional", "Baik Sekali", "18-10-2027"},
+        {"FISIP", "Ilmu Administrasi", "D3 Administrasi Perkantoran", "B", "03-07-2029"},
+        {"FISIP", "Ilmu Administrasi", "S1 Ilmu Administrasi Bisnis", "Unggul", "16-03-2027"},
+        {"FISIP", "Ilmu Administrasi", "S1 Ilmu Administrasi Negara", "A", "11-06-2026"},
+        {"FISIP", "Ilmu Komunikasi", "S1 Ilmu Komunikasi", "A", "02-12-2026"},
+        {"FISIP", "Ilmu Pemerintahan", "S1 Ilmu Pemerintahan", "B", "09-05-2028"},
+        {"FISIP", "Sosiologi", "S1 Sosiologi", "A", "20-08-2024"},
+        {"FK", "Kedokteran", "S1 Pendidikan Dokter", "A", "27-02-2025"},
+        {"FK", "Kedokteran", "S1 Farmasi", "Baik Sekali", "23-01-20228"},
+        {"FH", "Ilmu Hukum" "S1 Ilmu Hukum", "A", "11-06-2026"}
    };
-
 
 void TampilkanFakultas() {
 	cout << "Pilih Fakultas: " << endl;
@@ -422,7 +421,7 @@ void TampilkanAkreditasi(int fakultas, int jurusan, int prodi) {
     
     Akreditasi data = akreditasiData[index];
     cout << "-------------------------\n";
-    cout << "Akreditasi Program Studi\n";
+    cout << "\nAkreditasi Program Studi\n";
     cout << "-------------------------\n";
     cout << "Fakultas       : " << data.NamaFakultas << endl;
     cout << "Jurusan        : " << data.NamaJurusan << endl;

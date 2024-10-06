@@ -11,7 +11,7 @@ struct Akreditasi {
     };
     
 Akreditasi akreditasiData[]  = {
-	    {"FMIPA", "Ilmu Komputer", "D3 Manajemen Informatika", "Baik Sekali", "27-12-2027"},
+		{"FMIPA", "Ilmu Komputer", "D3 Manajemen Informatika", "Baik Sekali", "27-12-2027"},
 	    {"FMIPA", "Ilmu Komputer", "S1 Sistem Informasi", "Proses/Prodi Baru", "-"},
 	    {"FMIPA", "Ilmu Komputer", "S1 Ilmu Komputer", "A", "25-11-2026"},
 	    {"FMIPA", "Ilmu Komputer", "Ilmu Komputer PSDKU Way Kanan", "Proses/Prodi Baru", "-"},
@@ -92,6 +92,7 @@ Akreditasi akreditasiData[]  = {
         {"FK", "Kedokteran", "S1 Farmasi", "Baik Sekali", "23-01-20228"},
         {"FH", "Ilmu Hukum" "S1 Ilmu Hukum", "A", "11-06-2026"}
    };
+
 
 void TampilkanFakultas() {
 	cout << "Pilih Fakultas: " << endl;
